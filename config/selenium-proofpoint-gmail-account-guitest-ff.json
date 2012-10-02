@@ -1,0 +1,20 @@
+{
+    "selenium": {
+        "host":"guitest2.lab.proofpoint.com",
+        "port":"4444",
+        "browser":"*firefox",
+        "url":"http://mail.google.com",
+        "slow_down":"3000",
+        "debug":"0",
+        "enable_network_capture":"0"
+    },
+    
+    "credentials": {
+        "user":"proofpointuser",
+        "password":"proofpointpassword"
+    },
+    
+    "users": [
+        { "user1": "foo" }
+    ]
+}
